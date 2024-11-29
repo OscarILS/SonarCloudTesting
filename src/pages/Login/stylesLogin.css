@@ -1,0 +1,140 @@
+.login__container{
+    background: url(/src/assets/images/login.png);
+    background-repeat: no-repeat;
+    background-color: #4DAD95;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.login__wrapper{
+    margin: auto 250px auto auto;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.login__form__box{
+    padding: 50px;
+}
+
+.login__titles, .login__form{
+    margin: 0 10px;
+}
+
+.login__titles h1{
+    font-size: 36px;
+    text-align: center;
+    color: #4CAD95;
+    margin: 20px 0;
+}
+
+.login__titles h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.login__form .login__input__box{
+    margin: 40px 0;
+}
+
+.login__form .login__input__title{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.login__input__box input{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #0009;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.login__Button{
+    width: 100%;
+    padding: 14px 120px;
+    background-color: #4CAD95;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer; 
+    transition: all 0.8s;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.login__Button:hover{
+    background-color: #296F5D;
+}
+
+p.login__error-message{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    min-height: 16px;
+    margin: 5px 0; 
+}
+
+.login__form .register__link{
+    text-align: center;
+    padding: 20px;
+}
+
+.register__link p{
+    font-size: 15px;
+    color: #000;
+}
+
+.register__link p a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.register__link p a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 1280px) {
+    .login__container{
+        background: #4CAD95;
+        background-size: initial;
+    }
+
+    .login__wrapper{
+        width: 90%;
+        margin: auto;
+    }
+
+    .login__form__box{
+        margin: 0 20px;
+        padding: 20px;
+    }
+
+    .login__titles, .login__form{
+        margin: 0 5px;
+    }
+
+    .login__titles h1{
+        font-size: 28px;
+    }
+
+    .login__form .login__input__box{
+        margin: 30px 0;
+    }
+
+    .login__input__box input{
+        font-size: 15px;
+    }
+
+    .login__Button{
+        padding: 14px 80px;
+        font-size: 14px;
+    }
+}

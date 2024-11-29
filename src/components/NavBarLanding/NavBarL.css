@@ -1,0 +1,97 @@
+header {
+    background-color: #4CAD95;
+    width: 100%;
+    align-items: center;
+    height: 6.5rem;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 0 3rem;
+    font-size: 16px;
+}
+
+.logo_container {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav_container {
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+.actions_container {
+    flex: wrap;
+    display: flex;
+    align-items: center
+}
+
+.actions_container-img img{
+    width: 60px;
+    height: 60px;
+}
+
+.actions_container span{
+    font-weight: 500;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header__nav__item {
+    list-style: none;
+    margin: 0rem 3rem;
+}
+
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.1s;
+}
+
+.nav_link:hover {
+    color: #21433B;
+    font-weight: 600;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.buttons-container button{
+    padding: 10px 20px;
+    border:none;
+    background-color: #265046;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-register{
+    padding: 0;
+    border-bottom: 2px solid white;
+}
+
+.button-register button{
+    background-color: transparent;
+}
+
+.header__nav__item button{
+    cursor:pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
